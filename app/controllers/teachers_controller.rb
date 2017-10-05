@@ -4,7 +4,7 @@ class TeachersController < ApplicationController
   end
 
   def create
-    # Hint: params??
+  	@parameter = params
     render 'show'
   end
 end
